@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NH DB 관리</title>
+</head>
+
+<style>
+    .layout {
+        width : 500px;
+        margin: 40px auto 0;
+    }
+
+
+    .layout input, textarea {
+        width : 100%;
+        box-sizing: border-box;
+        margin-top: 10px;
+
+    }
+
+    .layout textarea {
+        width : 100%;
+        margin-top: 10px;
+        min-height: 100px;
+    }
+
+</style>
+<body>
+    <div class = "layout">
+        <form action="/Db/WritePro" method="post">
+        <input name="name" type = "text">
+        <textarea name = "phone_number"></textarea>
+        <button type = "submit" >등록</button>
+        </form>
+    </div>
+</body>
+</html>
